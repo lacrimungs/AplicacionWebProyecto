@@ -1,0 +1,153 @@
+ERROR - 2023-11-14 04:41:35 --> Error connecting to the database: mysqli_sql_exception: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'tiendaabejita', 3306, '', 0)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\abejita\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\abejita\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\abejita\app\Controllers\proveedor.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\proveedor->consultar()
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+#9 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\abejita\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\abejita\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\abejita\app\Controllers\proveedor.php(15): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\proveedor->consultar()
+#7 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2023-11-14 04:41:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Proveedor`
+WHERE `Proveedor`.`deleted_at` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\proveedor.php(15): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->consultar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-14 04:43:21 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('12')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-14 04:43:28 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('8')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+ERROR - 2023-11-14 16:32:22 --> mysqli_sql_exception: MySQL server has gone away in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\abejita\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\abejita\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\abejita\app\Controllers\proveedor.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\proveedor->consultar()
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+#9 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-11-14 16:32:22 --> MySQL server has gone away
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Proveedor`
+WHERE `Proveedor`.`deleted_at` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\proveedor.php(15): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->consultar()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-14 16:32:45 --> Undefined variable $proveedor
+in APPPATH\Views\distribuidor\editar.php on line 6.
+ 1 APPPATH\Views\distribuidor\editar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-14 16:33:57 --> Undefined property: stdClass::$direccion
+in APPPATH\Views\distribuidor\editar.php on line 30.
+ 1 APPPATH\Views\distribuidor\editar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$direccion', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-14 16:34:33 --> Undefined property: stdClass::$regio_distribuidora
+in APPPATH\Views\distribuidor\editar.php on line 30.
+ 1 APPPATH\Views\distribuidor\editar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$regio_distribuidora', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-14 16:34:35 --> Undefined property: stdClass::$regio_distribuidora
+in APPPATH\Views\distribuidor\editar.php on line 30.
+ 1 APPPATH\Views\distribuidor\editar.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$regio_distribuidora', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-14 16:34:44 --> Undefined variable $proveedor
+in APPPATH\Views\distribuidor\editar.php on line 36.
+ 1 APPPATH\Views\distribuidor\editar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 36)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')

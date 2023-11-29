@@ -1,0 +1,116 @@
+CRITICAL - 2023-11-11 01:28:17 --> Undefined array key "region_distrbuidora"
+in APPPATH\Controllers\distribuidor.php on line 37.
+ 1 APPPATH\Controllers\distribuidor.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "region_distrbuidora"', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\distribuidor.php', 37)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:29:02 --> Undefined variable $proveedorModel
+in APPPATH\Controllers\distribuidor.php on line 40.
+ 1 APPPATH\Controllers\distribuidor.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedorModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\distribuidor.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:29:32 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(56): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:30:23 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(56): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:30:30 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(56): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:34:55 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(56): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:35:12 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(56): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('3')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:37:39 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('9')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:39:59 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('9')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:40:00 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('9')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:46:37 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('16')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-11 01:54:28 --> Invalid file: "distribuidor/editar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('distribuidor/editar.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 3 APPPATH\Controllers\distribuidor.php(57): view('distribuidor/editar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('14')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')

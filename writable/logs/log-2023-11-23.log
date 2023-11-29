@@ -1,0 +1,72 @@
+CRITICAL - 2023-11-23 02:08:50 --> Invalid file: "vistas/productosconsumohumano.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/productosconsumohumano.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/productosconsumohumano', [], true)
+ 3 APPPATH\Controllers\vistas.php(23): view('vistas/productosconsumohumano', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->productosconsumohumano()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-23 02:09:56 --> Invalid file: "vistas/productosconsumohumano.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/productosconsumohumano.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/productosconsumohumano', [], true)
+ 3 APPPATH\Controllers\vistas.php(23): view('vistas/productosconsumohumano', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->productosconsumohumano()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-23 02:09:57 --> Invalid file: "vistas/productosconsumohumano.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/productosconsumohumano.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/productosconsumohumano', [], true)
+ 3 APPPATH\Controllers\vistas.php(23): view('vistas/productosconsumohumano', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->productosconsumohumano()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-23 02:09:58 --> Invalid file: "vistas/productosconsumohumano.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/productosconsumohumano.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/productosconsumohumano', [], true)
+ 3 APPPATH\Controllers\vistas.php(23): view('vistas/productosconsumohumano', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->productosconsumohumano()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-23 02:12:00 --> Invalid file: "vistas/mensaje.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/mensaje.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/mensaje', [], true)
+ 3 APPPATH\Controllers\vistas.php(40): view('vistas/mensaje')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->mensaje()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-23 02:17:59 --> Invalid file: "vistas/productosmedicina.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/productosmedicina.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/productosmedicina', [], true)
+ 3 APPPATH\Controllers\vistas.php(33): view('vistas/productosmedicina', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->productosmedicina()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-23 02:42:36 --> Undefined property: stdClass::$imagen
+in APPPATH\Views\vistas\productosconsumohumano.php on line 14.
+ 1 APPPATH\Views\vistas\productosconsumohumano.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$imagen', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\productosconsumohumano.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\productosconsumohumano.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/productosconsumohumano', [], true)
+ 5 APPPATH\Controllers\vistas.php(23): view('vistas/productosconsumohumano', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->productosconsumohumano()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')

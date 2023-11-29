@@ -1,0 +1,1443 @@
+CRITICAL - 2023-11-28 01:36:56 --> Undefined variable $CategoriaModel
+in APPPATH\Controllers\proveedor.php on line 28.
+ 1 APPPATH\Controllers\proveedor.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CategoriaModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->agregar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:39:51 --> Undefined property: stdClass::$categoria_id
+in APPPATH\Views\proveedor\agregar.php on line 49.
+ 1 APPPATH\Views\proveedor\agregar.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$categoria_id', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\proveedor\\agregar.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\proveedor\\agregar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('proveedor/agregar', [], true)
+ 5 APPPATH\Controllers\proveedor.php(33): view('proveedor/agregar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->agregar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:52:39 --> Undefined variable $mascotaModel
+in APPPATH\Controllers\proveedor.php on line 67.
+ 1 APPPATH\Controllers\proveedor.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mascotaModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:52:59 --> Undefined variable $mascotaModel
+in APPPATH\Controllers\proveedor.php on line 67.
+ 1 APPPATH\Controllers\proveedor.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mascotaModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:53:53 --> Undefined variable $ProveedorModel
+in APPPATH\Controllers\proveedor.php on line 67.
+ 1 APPPATH\Controllers\proveedor.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ProveedorModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:53:54 --> Undefined variable $ProveedorModel
+in APPPATH\Controllers\proveedor.php on line 67.
+ 1 APPPATH\Controllers\proveedor.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ProveedorModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:54:49 --> Undefined variable $ProveedorModel
+in APPPATH\Controllers\proveedor.php on line 67.
+ 1 APPPATH\Controllers\proveedor.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ProveedorModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:54:50 --> Undefined variable $ProveedorModel
+in APPPATH\Controllers\proveedor.php on line 67.
+ 1 APPPATH\Controllers\proveedor.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ProveedorModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:55:21 --> Undefined variable $ProveedorModel
+in APPPATH\Controllers\proveedor.php on line 67.
+ 1 APPPATH\Controllers\proveedor.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ProveedorModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 67)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:56:45 --> Undefined variable $producto
+in APPPATH\Views\proveedor\editar.php on line 45.
+ 1 APPPATH\Views\proveedor\editar.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\proveedor\\editar.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\proveedor.php(73): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 01:58:17 --> Undefined array key "producto_id"
+in APPPATH\Controllers\proveedor.php on line 90.
+ 1 APPPATH\Controllers\proveedor.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "producto_id"', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\proveedor.php', 90)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->update()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:00:15 --> Undefined variable $producto
+in APPPATH\Views\proveedor\editar.php on line 56.
+ 1 APPPATH\Views\proveedor\editar.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $producto', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\proveedor\\editar.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\proveedor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('proveedor/editar', [], true)
+ 5 APPPATH\Controllers\proveedor.php(73): view('proveedor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\proveedor->editar('5')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\proveedor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:14:44 --> Undefined variable $distribuidor
+in APPPATH\Views\distribuidor\editar.php on line 6.
+ 1 APPPATH\Views\distribuidor\editar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $distribuidor', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(71): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:22:59 --> Undefined variable $proveedor
+in APPPATH\Views\distribuidor\editar.php on line 56.
+ 1 APPPATH\Views\distribuidor\editar.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(75): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:23:06 --> Undefined variable $proveedor
+in APPPATH\Views\distribuidor\editar.php on line 56.
+ 1 APPPATH\Views\distribuidor\editar.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(75): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:23:36 --> Undefined variable $proveedor
+in APPPATH\Views\distribuidor\editar.php on line 56.
+ 1 APPPATH\Views\distribuidor\editar.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(75): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:23:38 --> Undefined variable $proveedor
+in APPPATH\Views\distribuidor\editar.php on line 56.
+ 1 APPPATH\Views\distribuidor\editar.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php', 56)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\distribuidor\\editar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('distribuidor/editar', [], true)
+ 5 APPPATH\Controllers\distribuidor.php(75): view('distribuidor/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\distribuidor->editar('3')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\distribuidor))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:34:44 --> Class "App\Controllers\InventarioModel" not found
+in APPPATH\Controllers\inventario.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inventario->consultar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventario))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:35:19 --> Class "App\Models\InventarioModel" not found
+in APPPATH\Controllers\inventario.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inventario->consultar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventario))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:35:20 --> Class "App\Models\InventarioModel" not found
+in APPPATH\Controllers\inventario.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inventario->consultar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventario))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 02:46:56 --> Undefined property: stdClass::$Numproductodisponible
+in APPPATH\Views\inventario\consultar.php on line 81.
+ 1 APPPATH\Views\inventario\consultar.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$Numproductodisponible', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\inventario\\consultar.php', 81)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\inventario\\consultar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('inventario/consultar', [], true)
+ 5 APPPATH\Controllers\inventario.php(28): view('inventario/consultar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Inventario->consultar()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inventario))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:29:50 --> Call to a member function where() on null
+in APPPATH\Controllers\vistas.php on line 66.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:35:36 --> Undefined variable $data
+in APPPATH\Controllers\vistas.php on line 61.
+ 1 APPPATH\Controllers\vistas.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\vistas.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:43:51 --> Invalid file: "detalles.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detalles.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('detalles', [], true)
+ 3 APPPATH\Controllers\vistas.php(70): view('detalles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:44:23 --> Invalid file: "detalles.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('detalles.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('detalles', [], true)
+ 3 APPPATH\Controllers\vistas.php(70): view('detalles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:48:35 --> Invalid file: "productos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productos', [], true)
+ 3 APPPATH\Controllers\vistas.php(70): view('productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:48:35 --> Invalid file: "productos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productos', [], true)
+ 3 APPPATH\Controllers\vistas.php(70): view('productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:48:45 --> Invalid file: "productos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('productos', [], true)
+ 3 APPPATH\Controllers\vistas.php(70): view('productos', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:49:46 --> Invalid file: "vistas/detalles.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/detalles.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/detalles', [], true)
+ 3 APPPATH\Controllers\vistas.php(70): view('vistas/detalles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:49:47 --> Invalid file: "vistas/detalles.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/detalles.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/detalles', [], true)
+ 3 APPPATH\Controllers\vistas.php(70): view('vistas/detalles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 03:49:51 --> Invalid file: "vistas/detalles.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('vistas/detalles.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/detalles', [], true)
+ 3 APPPATH\Controllers\vistas.php(70): view('vistas/detalles', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 04:00:09 --> Call to a member function insert() on null
+in APPPATH\Controllers\vistas.php on line 80.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+ERROR - 2023-11-28 04:04:41 --> mysqli_sql_exception: Unknown column 'nombre_producto' in 'field list' in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\abejita\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\abejita\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\abejita\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\abejita\app\Controllers\vistas.php(75): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+#9 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+#10 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-11-28 04:04:41 --> Unknown column 'nombre_producto' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Compra` (`producto_id`, `nombre_producto`, `precio`, `fecha_compra`) VALUES (:producto_id:, :nombre_producto:, :precio:, :fecha_compra:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\vistas.php(75): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+ERROR - 2023-11-28 04:04:42 --> mysqli_sql_exception: Unknown column 'nombre_producto' in 'field list' in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\abejita\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\abejita\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\abejita\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\abejita\app\Controllers\vistas.php(75): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+#9 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+#10 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-11-28 04:04:42 --> Unknown column 'nombre_producto' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Compra` (`producto_id`, `nombre_producto`, `precio`, `fecha_compra`) VALUES (:producto_id:, :nombre_producto:, :precio:, :fecha_compra:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\vistas.php(75): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+ERROR - 2023-11-28 04:04:45 --> mysqli_sql_exception: Unknown column 'nombre_producto' in 'field list' in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\abejita\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\abejita\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\abejita\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\abejita\app\Controllers\vistas.php(75): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+#9 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+#10 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-11-28 04:04:45 --> Unknown column 'nombre_producto' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Compra` (`producto_id`, `nombre_producto`, `precio`, `fecha_compra`) VALUES (:producto_id:, :nombre_producto:, :precio:, :fecha_compra:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\vistas.php(75): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 04:06:04 --> Undefined variable $id
+in APPPATH\Controllers\vistas.php on line 68.
+ 1 APPPATH\Controllers\vistas.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\vistas.php', 68)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+ERROR - 2023-11-28 04:06:26 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\abejita\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\abejita\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\abejita\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\abejita\app\Controllers\vistas.php(76): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+#9 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+#10 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-11-28 04:06:26 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Compra` (`nombre`, `precio`, `cantidad`, `fecha_compra`) VALUES (:nombre:, :precio:, :cantidad:, :fecha_compra:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\vistas.php(76): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+ERROR - 2023-11-28 04:07:21 --> mysqli_sql_exception: Unknown column 'nombre' in 'field list' in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `Co...', 0)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `Co...')
+#2 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `Co...')
+#3 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Co...', Array, false)
+#4 C:\xampp\htdocs\abejita\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\abejita\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\abejita\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\abejita\app\Controllers\vistas.php(75): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+#9 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+#10 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2023-11-28 04:07:21 --> Unknown column 'nombre' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `Compra` (`nombre`, `precio`, `cantidad`, `created_at`) VALUES (:nombre:, :precio:, :cantidad:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\vistas.php(75): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 04:15:38 --> Too few arguments to function App\Controllers\vistas::compras(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 57.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 04:18:55 --> Undefined variable $compra
+in APPPATH\Views\vistas\detalles.php on line 14.
+ 1 APPPATH\Views\vistas\detalles.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $compra', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/detalles', [], true)
+ 5 APPPATH\Controllers\vistas.php(69): view('vistas/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 04:21:02 --> Undefined property: stdClass::$nombre
+in APPPATH\Views\vistas\detalles.php on line 28.
+ 1 APPPATH\Views\vistas\detalles.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nombre', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/detalles', [], true)
+ 5 APPPATH\Controllers\vistas.php(69): view('vistas/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 04:52:30 --> Undefined variable $proveedor
+in APPPATH\Views\vistas\detalles.php on line 64.
+ 1 APPPATH\Views\vistas\detalles.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $proveedor', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/detalles', [], true)
+ 5 APPPATH\Controllers\vistas.php(69): view('vistas/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 04:53:18 --> Attempt to read property "id" on array
+in APPPATH\Views\vistas\detalles.php on line 64.
+ 1 APPPATH\Views\vistas\detalles.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/detalles', [], true)
+ 5 APPPATH\Controllers\vistas.php(69): view('vistas/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 04:53:19 --> Attempt to read property "id" on array
+in APPPATH\Views\vistas\detalles.php on line 64.
+ 1 APPPATH\Views\vistas\detalles.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php', 64)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\detalles.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/detalles', [], true)
+ 5 APPPATH\Controllers\vistas.php(69): view('vistas/detalles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->compras()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 05:10:42 --> The route for "vistas/detalles" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('vistas/detalles')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\vistas.php(76): redirect('vistas/detalles')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->delete('4')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 05:11:25 --> The route for "vistas/detalles" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('vistas/detalles')
+ 2 SYSTEMPATH\Common.php(878): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH\Controllers\vistas.php(76): redirect('vistas/detalles')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->delete('7')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:29:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:42:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 06:42:56 --> Undefined variable $productos
+in APPPATH\Views\vistas\comprar.php on line 5.
+ 1 APPPATH\Views\vistas\comprar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(82): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 06:43:34 --> Undefined variable $productos
+in APPPATH\Views\vistas\comprar.php on line 5.
+ 1 APPPATH\Views\vistas\comprar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(82): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 06:44:47 --> Undefined variable $productos
+in APPPATH\Views\vistas\comprar.php on line 5.
+ 1 APPPATH\Views\vistas\comprar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(82): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 06:44:48 --> Undefined variable $productos
+in APPPATH\Views\vistas\comprar.php on line 5.
+ 1 APPPATH\Views\vistas\comprar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(82): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:47:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:48:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 06:48:52 --> Undefined variable $productos
+in APPPATH\Views\vistas\comprar.php on line 5.
+ 1 APPPATH\Views\vistas\comprar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(82): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 06:49:27 --> Attempt to read property "nombre" on array
+in APPPATH\Views\vistas\comprar.php on line 4.
+ 1 APPPATH\Views\vistas\comprar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(82): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 06:49:28 --> Attempt to read property "nombre" on array
+in APPPATH\Views\vistas\comprar.php on line 4.
+ 1 APPPATH\Views\vistas\comprar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on array', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 4)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(82): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:50:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 06:50:01 --> Attempt to read property "precio" on array
+in APPPATH\Views\vistas\comprar.php on line 5.
+ 1 APPPATH\Views\vistas\comprar.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "precio" on array', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 5)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(82): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 06:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:55:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:55:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 06:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:04:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:18:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:18:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 07:26:52 --> Attempt to read property "nombre" on string
+in APPPATH\Views\vistas\comprar.php on line 3.
+ 1 APPPATH\Views\vistas\comprar.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nombre" on string', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 3)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(80): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 07:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 07:27:07 --> Undefined variable $productos
+in APPPATH\Views\vistas\comprar.php on line 1.
+ 1 APPPATH\Views\vistas\comprar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $productos', 'C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php', 1)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\abejita\\app\\Views\\vistas\\comprar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('vistas/comprar', [], true)
+ 5 APPPATH\Controllers\vistas.php(80): view('vistas/comprar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 07:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:33:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:41:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:43:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:49:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:50:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:53:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:54:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:58:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 07:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:00:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:02:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:09:47 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:10:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:10:39 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:13:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:13:20 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:15:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:15:25 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:17:51 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:17:56 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:18:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:18:41 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:19:38 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:19:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:19:44 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:20:14 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:20:18 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:24:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:28:28 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:29:14 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:29:17 --> Undefined variable $id_seleccionado
+in APPPATH\Controllers\vistas.php on line 110.
+ 1 APPPATH\Controllers\vistas.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_seleccionado', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\vistas.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('1')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:29:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:29:21 --> Undefined variable $id_seleccionado
+in APPPATH\Controllers\vistas.php on line 110.
+ 1 APPPATH\Controllers\vistas.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id_seleccionado', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\vistas.php', 110)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:29:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:29:50 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:33:48 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:35:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:35:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:35:54 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 74.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:41:28 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:41:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:41:32 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes)
+in APPPATH\Controllers\vistas.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-28 08:41:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:41:39 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 262144 bytes)
+in APPPATH\Controllers\vistas.php on line 71.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-28 08:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:42:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:42:13 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:46:53 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:46:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:46:57 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:48:50 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:50:55 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 08:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:51:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 08:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 08:51:37 --> Too few arguments to function App\Controllers\vistas::comprar(), 0 passed in C:\xampp\htdocs\abejita\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\vistas.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\vistas->comprar()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\vistas))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:04:02 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\sesion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:07:58 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\sesion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:07:59 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\sesion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:08:02 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\sesion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:08:41 --> Call to undefined function App\Controllers\UserModel()
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\sesion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:08:43 --> Call to undefined function App\Controllers\UserModel()
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\sesion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:10:09 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:13:31 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:13:32 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:13:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:13:34 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:13:35 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:14:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:14:29 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:14:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:14:30 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:14:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:14:31 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:14:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:14:35 --> Invalid file: "login.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login', [], true)
+ 3 APPPATH\Controllers\sesion.php(22): view('login')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:15:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:18:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:19:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:26:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:27:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:42:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:42:56 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Sesion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:43:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 09:43:03 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Sesion->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 09:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 09:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:00:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 10:03:48 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:03:50 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:05:31 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:05:33 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:07:44 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 6.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\abejita\\app\\Controllers\\Sesion.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Sesion')
+ 4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Sesion')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Sesion', true)
+ 6 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:08:57 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:08:59 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:10:04 --> Call to undefined function App\Controllers\UserModel()
+in APPPATH\Controllers\sesion.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+ERROR - 2023-11-28 10:11:29 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\abejita\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\abejita\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\abejita\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\abejita\system\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\abejita\system\BaseModel.php(662): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\abejita\app\Controllers\sesion.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\abejita\system\CodeIgniter.php(919): App\Controllers\Sesion->login()
+#8 C:\xampp\htdocs\abejita\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+#9 C:\xampp\htdocs\abejita\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\abejita\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\abejita\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-11-28 10:11:29 --> Unknown column 'username' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `Usuario`
+WHERE `username` IS NULL
+AND `Usuario`.`deleted_at` IS NULL
+ LIMIT 1', [], false)
+ 2 SYSTEMPATH\Model.php(264): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(662): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Controllers\sesion.php(20): CodeIgniter\BaseModel->first()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sesion->login()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 10:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 10:26:09 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:26:10 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 10:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 10:29:45 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:29:46 --> Class "App\Controllers\UserModel" not found
+in APPPATH\Controllers\sesion.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+CRITICAL - 2023-11-28 10:30:07 --> Undefined variable $userModel
+in APPPATH\Controllers\sesion.php on line 16.
+ 1 APPPATH\Controllers\sesion.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userModel', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\sesion.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->login()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 10:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:43:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:44:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 10:44:58 --> Cannot declare class App\Controllers\sesion, because the name is already in use
+in APPPATH\Views\sesion\login.php on line 8.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2023-11-28 10:46:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:47:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:49:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 10:51:07 --> Undefined variable $user
+in APPPATH\Controllers\sesion.php on line 33.
+ 1 APPPATH\Controllers\sesion.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\abejita\\app\\Controllers\\sesion.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\sesion->authenticate()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\sesion))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 10:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:56:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 10:56:41 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\sesion.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sesion->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 10:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-28 10:57:08 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\sesion.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Sesion->authenticate()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sesion))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\abejita\\public\\index.php')
+INFO - 2023-11-28 10:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:58:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 10:58:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:03:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:10:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 11:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:55:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:56:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-28 20:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
